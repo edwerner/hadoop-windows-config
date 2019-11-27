@@ -142,5 +142,5 @@ cd "C:\Users\Edward\hadoop-3.1.0\hadoop-3.1\hadoop-3.1.0\solr-6.3.0"
 
 Start Solr Using HDFS
 =====================
-solr start -Dsolr.directoryFactory=HdfsDirectoryFactory -Dsolr.lock.type=hdfs -Dsolr.data.dir=hdfs://0.0.0.0:19000/datanode -Dsolr.updatelog=hdfs://0.0.0.0:19000/logs
+solr start -Dsolr.directoryFactory=HdfsDirectoryFactory -Dsolr.lock.type=hdfs -Dsolr.data.dir=hdfs\\\\:\/\/0.0.0.0\\:19000\/data -Dsolr.updatelog=hdfs\\\\:\/\/0.0.0.0\\:19000\/logs\/userlogs
 
