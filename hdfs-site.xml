@@ -17,16 +17,14 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
- 	<property>
-    	<name>dfs.name.dir</name>
-    	<value>/mnt/data/nn</value>
-  	</property>
- 	<property>
-    	<name>dfs.data.dir</name>
-   		<value>/mnt/data/dfs</value>
-  	</property>
-  	<property>
-    	<name>dfs.replication</name>
-    	<value>1</value>
-  	</property>
+  <property>
+    <name>dfs.data.dir</name>
+    <value>/Users/Edward/hadoop-3.1.0/hadoop-3.1/hadoop-3.1.0/dfs/name/data</value>
+    <final>true</final>
+  </property>
+  <property>
+    <name>dfs.name.dir</name>
+    <value>/Users/Edward/hadoop-3.1.0/hadoop-3.1/hadoop-3.1.0/dfs/name</value>
+    <final>true</final>
+  </property>
 </configuration>
